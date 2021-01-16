@@ -767,8 +767,10 @@ a#logo {
 }
 
 .contact-box {
-    text-align: middle;
-    width: 620pt;
+    text-align: left;
+    width: 100%;
+  margin-left: 50%;
+  margin-right:50%;
 }
 
 .contact-box h4 {
