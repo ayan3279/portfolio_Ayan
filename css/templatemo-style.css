@@ -160,13 +160,13 @@ video {
 #video:after {
     content: '';
     opacity: 0.75;
-    background: #4096ee;
+    background: #020202;
     /* Old browsers */
-    background: -moz-linear-gradient(top, #00ffc8 0%, #0a1111 100%);
+    background: -moz-linear-gradient(top, #3d3d3d 0%, #0a1111 100%);
     /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, #69f2f7 0%, #0c1314 100%);
+    background: -webkit-linear-gradient(top, #3f3f3f 0%, #0c1314 100%);
     /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, #69e1ff 0%, #0b1314 100%);
+    background: linear-gradient(to bottom, #303030 0%, #0b1314 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#4096ee', endColorstr='#39ced6', GradientType=0);
     /* IE6-9 */
@@ -362,7 +362,7 @@ video {
 
 a#logo {
     text-decoration: none;
-    font-size: 32px;
+    font-size: 22px;
     text-transform: uppercase;
     font-weight: 700;
 }
@@ -398,7 +398,7 @@ a#logo {
     content: '';
     display: block;
     height: 2px;
-    background: #fff;
+    background: rgb(255, 255, 255);
     -webkit-transition: all 0.4s ease;
     transition: all 0.4s ease;
     -webkit-transform: scale(0);
@@ -455,14 +455,14 @@ a#logo {
     display: inline-block;
     line-height: 50px;
     text-align: center;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(0, 0, 0, 0.521);
     color: rgba(255, 255, 255, 1);
     font-size: 18px;
 }
 
 .social-icons li a:hover {
     color: #1e1e1e;
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
 }
 
 
@@ -488,14 +488,15 @@ a#logo {
     max-width: 620px;
     width: 100%;
     margin: 0 auto 30px;
-    color: #fff;
+    color: rgb(255, 255, 255);
 }
 
 .welcome-title {
     font-weight: 700;
-    font-size: 120px;
-    margin-bottom: 10px;
-    letter-spacing: 0.02em;
+    font-size: 90px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    letter-spacing: 0.1em;
 }
 
 .welcome-title span {
@@ -538,14 +539,14 @@ a#logo {
 ================================================*/
 
 .about-img {
-    margin: 0 auto 40px;
+    margin: 0 auto 5px;
     position: relative;
 }
 
 .about-img img {
-    border-radius: 10px;
-    -webkit-box-shadow: 0 0 40px rgba(0, 0, 0, .3);
-    box-shadow: 0 0 40px rgba(0, 0, 0, .3);
+    border-radius: 0px;
+    -webkit-box-shadow: 0 0 150px rgba(202, 202, 202, 0.822);
+    box-shadow: 0 0 150px rgba(211, 211, 211, 0.788);
 }
 
 .about-contentbox {
@@ -594,8 +595,8 @@ a#logo {
 }
 
 .facts-list .item:hover {
-    background: #fff;
-    color: #1e1e1e;
+    background: rgb(255, 255, 255);
+    color: #000000;
 }
 
 .facts-list .owl-dots {
@@ -627,7 +628,7 @@ a#logo {
 }
 
 .services-list .item {
-    background-color: rgba(250, 250, 250, 0.25);
+    background-color: rgba(0, 0, 0, 0.466);
     border-radius: 10px;
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
@@ -646,8 +647,8 @@ a#logo {
 }
 
 .services-list .item:hover {
-    background-color: #fff;
-    color: #1e1e1e;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
 }
 
 .service-box h3 {
@@ -741,18 +742,18 @@ a#logo {
     position: relative;
     opacity: 50;
     visibility: visible;
-    color: #000000;
+    color: #ffffff;
 }
 
 .portfolio-item:hover .thumb-inner {
     border-radius: 10px;
     height: 90%;
-    background-color: rgba(179, 237, 255, 0.9)
+    background-color: rgba(29, 29, 29, 0.664)
 }
 
 .portfolio-item:hover .thumb-inner h4 {
     margin-top: 20%;
-    color: #b30000;
+    color: #ffffff;
     margin-bottom: 20px;
 }
 
@@ -761,130 +762,27 @@ a#logo {
 08. CONTACT BLOCK CSS
 ================================================*/
 
-::-webkit-input-placeholder {
-    color: #fff !important;
-    opacity: 1;
-}
-
-::-moz-placeholder {
-    color: #fff !important;
-    opacity: 1;
-}
-
-:-ms-input-placeholder {
-    color: #fff !important;
-    opacity: 1;
-}
-
-:-moz-placeholder {
-    color: #fff !important;
-    opacity: 1;
-}
-
-.input-field {
-    margin-bottom: 15px;
-}
-
-.form-control {
-    height: 50px;
-    color: #fff;
-    border: none;
-    background: rgba(250, 250, 250, 0.05);
-    border: 1px solid rgba(250, 250, 250, 0.5);
-    border-radius: 10px;
-    padding: 4px 22px;
-    font-size: 14px;
-    margin-bottom: 30px;
-}
-
-.form-control:focus {
-    box-shadow: none;
-    outline: none;
-    background: rgba(0, 0, 0, 0.05);
-    border: 1px solid rgba(250, 250, 250, 1);
-    color: #fff;
-}
-
-.index .form-control.form-control-dark {
-    background: rgba(250, 250, 250, 0.75);
-    color: #fff;
-}
-
-.index .form-control.form-control-dark:focus {
-    background: rgba(54, 40, 158, 0.85);
-    color: #fff;
-}
-
-.index .form-control.form-control-dark::-webkit-input-placeholder {
-    color: #fff !important;
-}
-
-.index .form-control.form-control-dark::-moz-placeholder {
-    color: #fff !important;
-}
-
-.index .form-control.form-control-dark:-ms-input-placeholder {
-    color: #fff !important;
-}
-
-.index .form-control.form-control-dark:-moz-placeholder {
-    color: #fff !important;
-}
-
-.form-control.form-control-dark:focus {
-    background: rgba(0, 0, 0, 0.2);
-}
-
-.form-control.form-control-dark {
-    background: rgba(0, 0, 0, 0.1);
-    color: #222;
-    border: none;
-}
-
-.form-control.form-control-dark::-webkit-input-placeholder {
-    color: #222 !important;
-    opacity: 0.7;
-}
-
-.form-control.form-control-dark::-moz-placeholder {
-    color: #222 !important;
-    opacity: 0.7;
-}
-
-.form-control.form-control-dark:-ms-input-placeholder {
-    color: #222 !important;
-    opacity: 0.7;
-}
-
-.form-control.form-control-dark:-moz-placeholder {
-    color: #222 !important;
-    opacity: 0.7;
-}
-
-textarea.form-control {
-    height: 123px;
-    padding-top: 15px;
-}
-
 .contact-section .btn {
     width: 100%;
 }
 
 .contact-box {
-    text-align: left;
+    text-align: middle;
+    width: 620pt;
 }
 
 .contact-box h4 {
     font-size: 24px;
+    align-items: center;
 }
 
 .contact-box h4:after {
     content: '';
     display: block;
     width: 50px;
-    height: 2px;
+    height: 10px;
     background: #fff;
-    margin: 12px 0;
+    margin: 50px 0;
 }
 
 .contact-row {
@@ -895,9 +793,8 @@ textarea.form-control {
     -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
-    align-items: center;
     margin-bottom: 30px;
-    background: rgba(250, 250, 250, 0.25);
+    background: rgba(0, 0, 0, 0.24);
     border-radius: 10px;
     padding: 30px;
     font-weight: 700;
@@ -907,39 +804,11 @@ textarea.form-control {
     width: 55px;
     font-size: 30px;
     display: block;
+    align-items: center;
 }
 
 .contact-row i.fa-envelope {
     font-size: 25px;
-}
-
-
-/*==============================================
-09. TESTIMONOALS BLOCK CSS
-================================================*/
-
-.testimonials-section .item {
-    background-color: rgba(250, 250, 250, 0.25);
-    padding: 40px;
-    border-radius: 10px;
-}
-
-.testimonials-section .item img {
-    width: 140px;
-    height: 140px;
-    margin: 0 auto;
-}
-
-.testimonials-section .item h4 {
-    margin-top: 40px;
-    font-size: 22px;
-    text-transform: capitalize;
-    font-weight: 700;
-}
-
-.testimonials-section .item p {
-    font-size: 17px;
-    font-style: italic;
 }
 
 
