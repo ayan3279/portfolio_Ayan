@@ -768,9 +768,10 @@ a#logo {
 
 .contact-box {
     text-align: left;
+  width: 100%;
   margin-left: 50%;
   margin-right: 50%;
-    width: 100%;
+    
 }
 
 .contact-box h4 {
